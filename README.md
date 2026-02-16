@@ -53,3 +53,7 @@ pip install -r requirements.txt
 
 # Run the regime detection pipeline
 python src/main_pipeline.py --mode train --tickers SPY,QQQ
+
+## Future Improvements
+* Integration of Transformer-based architecture for longer-term dependency mapping.
+* Deployment of the inference engine via a REST API for live trading signal generation.
